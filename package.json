@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@material-ui/core": "^4.11.2",
+    "@types/styletron-react": "^5.0.2",
+    "@types/styletron-standard": "^2.0.1",
     "baseui": "^9.107.0",
     "core-js": "^3.8.3",
     "next": "10.0.4",

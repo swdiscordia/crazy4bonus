@@ -18,7 +18,7 @@ export default function Home() {
 
       <Navbar />
       <main>
-        <Header title="Welcome to my app!!!!!!!!!!" />
+        <Header title="LOLOW LA GEUDRO" />
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>

@@ -2,8 +2,7 @@ import React from "react";
 import styles from "./Navbar.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import { Button } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
+import Button from "components/Button";
 
 export default function Navbar() {
   return (
@@ -22,8 +21,8 @@ export default function Navbar() {
           </div>
         </div>
         <div className={styles.buttonRight}>
-          <Link href="/Bonus" passHref>
-            <Button className={styles.MuiButton}>Bonus</Button>
+          <Link href="/" passHref>
+            <Button className="bonusButton">Bonus</Button>
           </Link>
           <Link href="/Stream" passHref>
             <Button>Stream</Button>
