@@ -1,9 +1,12 @@
+import React from "react";
 import Head from "next/head";
 import Header from "@components/Header";
 import Footer from "@components/Footer";
 import Navbar from "@components/Navbar";
+import { styled, useStyletron } from "styletron-react";
 
 export default function Home() {
+  const [css] = useStyletron();
   return (
     <div className="container">
       <Head>
