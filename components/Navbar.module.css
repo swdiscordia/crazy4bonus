@@ -1,0 +1,35 @@
+.navbar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #2a3457;
+}
+
+.containerLeft {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.title {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
+
+.buttonRight {
+  width: 15%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttonStream {
+  background-color: brown;
+  color: #2a3457;
+}
