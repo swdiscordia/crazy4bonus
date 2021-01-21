@@ -18,7 +18,7 @@ export default function Home() {
 
       <Navbar />
       <main>
-        <Header title="LOLOW LA GEUDRO" />
+        <Header title="crazy4bonus" />
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
